@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-21T12:58:26Z" product-name="praxisprojekclaas2">
+		<header/>
+		<body>
+			<trans-unit id="id.description">
+				<source>id</source>
+			</trans-unit>
+			<trans-unit id="montag.description">
+				<source>montag</source>
+			</trans-unit>
+			<trans-unit id="dienstag.description">
+				<source>dienstag</source>
+			</trans-unit>
+			<trans-unit id="mittwoch.description">
+				<source>mittwoch</source>
+			</trans-unit>
+			<trans-unit id="donnerstag.description">
+				<source>donnerstag</source>
+			</trans-unit>
+			<trans-unit id="freitag.description">
+				<source>freitag</source>
+			</trans-unit>
+			<trans-unit id="samstag.description">
+				<source>samstag</source>
+			</trans-unit>
+			<trans-unit id="sonntag.description">
+				<source>sonntag</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

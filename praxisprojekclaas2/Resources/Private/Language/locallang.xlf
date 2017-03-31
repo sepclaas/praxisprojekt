@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-21T14:00:10Z" product-name="praxisprojekclaas2">
+		<header/>
+		<body>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user">
+				<source>User</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.montag">
+				<source>Montag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.dienstag">
+				<source>Dienstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.mittwoch">
+				<source>Mittwoch</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.donnerstag">
+				<source>Donnerstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.freitag">
+				<source>Freitag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.samstag">
+				<source>Samstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_user.sonntag">
+				<source>Sonntag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd">
+				<source>Sd</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.montag">
+				<source>Montag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.dienstag">
+				<source>Dienstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.mittwoch">
+				<source>Mittwoch</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.donnerstag">
+				<source>Donnerstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.freitag">
+				<source>Freitag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.samstag">
+				<source>Samstag</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_sd.sonntag">
+				<source>Sonntag</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

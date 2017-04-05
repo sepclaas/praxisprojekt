@@ -18,40 +18,18 @@ namespace Avonis\Praxisprojekclaas2\Domain\Model;
 class User extends \TYPO3\CMS\Extbase\Domain\Model\FrontendUser
 {
     /**
- * id
- *
- * @var int
- */
-    protected $id;
-
-    /**
      * feuseruid
      *
      * @var \TYPO3\CMS\Extbase\Domain\Model\FrontendUser
      */
-    protected $feuseruid;
-
-// GET and SET Methods
+    protected $feuseruid = null;
 
     /**
-     * Returns the feuseruid
+     * id
      *
-     * @return \TYPO3\CMS\Extbase\Domain\Model\FrontendUser feuseruid
+     * @var int
      */
-    public function getFeuseruid() {
-        return $this->feuseruid;
-    }
-
-
-    /*
-     * Sets the feuseruid
-     *
-     * @param string $feuseruid
-     * @return \TYPO3\CMS\Extbase\Domain\Model\FrontendUser feuseruid
-     */
-    public function setFeuseruid($feuseruid) {
-        $this->feuseruid = $feuseruid;
-    }
+    protected $id = 0;
 
     /**
      * montag
@@ -108,6 +86,32 @@ class User extends \TYPO3\CMS\Extbase\Domain\Model\FrontendUser
      * @cascade remove
      */
     protected $sonntag = null;
+
+    // GET and SET Methods
+    /**
+     * Returns the feuseruid
+     *
+     * @return \TYPO3\CMS\Extbase\Domain\Model\FrontendUser feuseruid
+     */
+    public function getFeuseruid()
+    {
+        return $this->feuseruid;
+    }
+
+    /*
+     * Sets the feuseruid
+     *
+     * @param string $feuseruid
+     * @return \TYPO3\CMS\Extbase\Domain\Model\FrontendUser feuseruid
+     */
+
+    /**
+     * @param $feuseruid
+     */
+    public function setFeuseruid($feuseruid)
+    {
+        $this->feuseruid = $feuseruid;
+    }
 
     /**
      * __construct

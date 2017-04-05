@@ -16,6 +16,5 @@ namespace Avonis\Praxisprojekclaas2\Domain\Repository;
  * The repository for Users
  */
 class UserRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
-
 {
     }

@@ -138,7 +138,7 @@
             "name": "New Model Object",
             "value": {
                 "actionGroup": {
-                    "_default0_list": false,
+                    "_default0_list": true,
                     "_default1_show": false,
                     "_default2_new_create": false,
                     "_default3_edit_update": false,
@@ -277,7 +277,17 @@
         "originalExtensionKey": "praxisprojekclaas2",
         "originalVendorName": "Avonis",
         "persons": [],
-        "plugins": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "calendar",
+                "name": "Calendar"
+            }
+        ],
         "vendorName": "Avonis"
     },
     "wires": [
@@ -451,7 +461,7 @@
         }
     ],
     "log": {
-        "last_modified": "2017-04-05 11:18",
+        "last_modified": "2017-04-10 01:31",
         "extension_builder_version": "7.6.17",
         "be_user": " (1)"
     }

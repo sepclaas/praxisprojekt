@@ -1,0 +1,84 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Sd</h1>
+
+<f:flashMessages />
+
+<table  class="tx_praxisprojekclaas2" >
+	<thead>
+	<tr>
+		<th></th>
+		<th>
+			<span class="day">1</span>
+			<span class="long">Monday</span>
+			<span class="short">Mon</span>
+		</th>
+		<th>
+			<span class="day">2</span>
+			<span class="long">Tuesday</span>
+			<span class="short">Tue</span>
+		</th>
+		<th>
+			<span class="day">3</span>
+			<span class="long">Wendsday</span>
+			<span class="short">We</span>
+		</th>
+		<th>
+			<span class="day">4</span>
+			<span class="long">Thursday</span>
+			<span class="short">Thur</span>
+		</th>
+		<th>
+			<span class="day active">5</span>
+			<span class="long">Friday</span>
+			<span class="short">Fri</span>
+		</th>
+		<th>
+			<span class="day">6</span>
+			<span class="long">Saturday</span>
+			<span class="short">Sat</span>
+		</th>
+		<th>
+			<span class="day">7</span>
+			<span class="long">Sunday</span>
+			<span class="short">Sun</span>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<f:for each="{sds}" as="sd">
+		<tr>
+			<td><f:link.action action="show" arguments="{sd : sd}"> {sd.id}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{sd : sd}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{sd : sd}">Delete</f:link.action></td>
+		</tr>
+		<tr>
+			<td class="hour" rowspan="4"><span>1:00</span></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</f:for>
+	</tbody>
+</table>
+
+<f:link.action action="new">New Sd</f:link.action>
+</f:section>
+</html>

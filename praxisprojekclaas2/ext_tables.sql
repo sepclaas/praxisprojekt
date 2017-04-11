@@ -63,9 +63,9 @@ CREATE TABLE tx_praxisprojekclaas2_domain_model_sd (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -76,9 +76,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_dienstag_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_dienstag_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_dienstag_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_dienstag_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -89,9 +89,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_dienstag_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_mittwoch_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_mittwoch_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_mittwoch_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_mittwoch_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -102,9 +102,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_mittwoch_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_donnerstag_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_donnerstag_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_donnerstag_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_donnerstag_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -115,9 +115,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_donnerstag_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_freitag_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_freitag_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_freitag_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_freitag_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -128,9 +128,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_freitag_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_samstag_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_samstag_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_samstag_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_samstag_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,
@@ -141,9 +141,9 @@ CREATE TABLE tx_praxisprojekclaas2_user_samstag_sd_mm (
 );
 
 #
-# Table structure for table 'tx_praxisprojekclaas2_user_sonntag_sd_mm'
+# Table structure for table 'tx_praxisprojekclaas2_sd_sonntag_user_mm'
 #
-CREATE TABLE tx_praxisprojekclaas2_user_sonntag_sd_mm (
+CREATE TABLE tx_praxisprojekclaas2_sd_sonntag_user_mm (
 	uid_local int(11) unsigned DEFAULT '0' NOT NULL,
 	uid_foreign int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(11) unsigned DEFAULT '0' NOT NULL,

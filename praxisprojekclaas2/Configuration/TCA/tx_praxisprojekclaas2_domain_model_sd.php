@@ -122,7 +122,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -163,7 +163,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_dienstag_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -204,7 +204,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_mittwoch_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -245,7 +245,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_donnerstag_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -286,7 +286,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_freitag_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -327,7 +327,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_samstag_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,
@@ -368,7 +368,7 @@ return [
 	        'config' => [
 			    'type' => 'select',
 			    'renderType' => 'selectMultipleSideBySide',
-			    'foreign_table' => 'tx_praxisprojekclaas2_domain_model_user',
+			    'foreign_table' => 'fe_users',
 			    'MM' => 'tx_praxisprojekclaas2_sd_sonntag_user_mm',
 			    'size' => 10,
 			    'autoSizeMax' => 30,

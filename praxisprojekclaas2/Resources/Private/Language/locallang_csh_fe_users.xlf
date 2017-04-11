@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2017-04-05T11:18:48Z" product-name="praxisprojekclaas2">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-04-10T13:31:25Z" product-name="praxisprojekclaas2">
 		<header/>
 		<body>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_calendar">
+				<source>Calendar</source>
+			</trans-unit>
+			<trans-unit id="tx_praxisprojekclaas2_domain_model_calendar.description">
+				<source></source>
+			</trans-unit>
 			<trans-unit id="id.description">
 				<source>id</source>
 			</trans-unit>
